@@ -24,7 +24,7 @@
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": ""
+            "value": "6225958546:AAHVLhz0a1P76EJ8oiSDCbo1yy0H_qDYJxw"
         },
         "ADMIN": {
             "description":"Add Your User ID multiple is use space to split"
@@ -35,7 +35,8 @@
         },
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
-            "value": ""
+            "value": "mongodb+srv://activ3:<wRuCDTZ7tTbUElsA>@cluster0.zidct.mongodb.net/?retryWrites=true&w=majority"
+"
         },
         "DB_NAME":{ 
             "description":"Your Mongo DB Database Name ",
