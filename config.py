@@ -36,8 +36,8 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "Nothing")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    START_PIC   = os.environ.get("START_PIC", "https://media.wired.com/photos/598e35994ab8482c0d6946e0/master/w_640,c_limit/phonepicutres-TA.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', "689061386'').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "animefiles") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1282919))
 
