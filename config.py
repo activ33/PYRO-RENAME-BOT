@@ -31,14 +31,14 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6225958546:AAHVLhz0a1P76EJ8oiSDCbo1yy0H_qDYJxw") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","pyro-botz")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://activ3:<wRuCDTZ7tTbUElsA>@cluster0.zidct.mongodb.net/?retryWrites=true&w=majority"")
+    DB_NAME = os.environ.get("DB_NAME","ankit29")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://ankit29:ankit29@cluster0.7gdbq.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "Nothing")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "animefiles") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1282919))
 
     # wes response configuration     
