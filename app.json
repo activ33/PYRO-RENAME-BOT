@@ -7,19 +7,19 @@
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
-            "value": ""
+            "value": "1464463"
         },
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": ""
+            "value": "ff8451462d91861a13ffd8a6bb72aa8b"
         },
         "WEBHOOK": {
             "description": "if your server is need web service! value = True else value = False",
-            "value": "False"
+            "value": "True"
         },
         "FORCE_SUB": {
             "description": "Your force sub channel user name without [@] ",
-            "value": "",
+            "value": "animefiles",
             "required": false 
         },
         "BOT_TOKEN": {
