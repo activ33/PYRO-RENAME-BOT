@@ -6,5 +6,5 @@ def hello_world():
     return 'Made with Love by @activ3'
 
 
-if name == "main":
+if __name__ == "__main__":
     app.run()
